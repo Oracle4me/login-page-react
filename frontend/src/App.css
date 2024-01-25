@@ -1,0 +1,19 @@
+.animated-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  border-radius: 0 0 0 4px;
+  width: 100%;
+  background-color: #4070f4;
+  animation: decreaseWidth 2s linear forwards;
+}
+
+@keyframes decreaseWidth {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}
