@@ -75,8 +75,8 @@ const forgotPass = async (req, res) => {
     var transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'nurmkevin532@gmail.com',
-        pass: 'onwm rtwj xwds rlpo'
+        user: 'example@gmail.com', //use ur example akun
+        pass: '...'
       }
     });
 

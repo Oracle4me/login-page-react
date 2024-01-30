@@ -12,9 +12,6 @@ const userSchema = new mongoose.Schema({
   },
   confirmPassword: {
     type: String,
-  },
-  refresh_token: {
-    type: String
   }
 });
 
