@@ -8,7 +8,6 @@ Project authentication login with jwt
 - Sign Up 
 - Login
 - Forgot Password 
-- See User who have been log in
 
 ## Tech
 
