@@ -1,5 +1,5 @@
 # Login-Page-React
-Project authentication login with jwt 
+Project Authentication Login With JWT
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
