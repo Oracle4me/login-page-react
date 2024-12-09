@@ -75,13 +75,13 @@ const forgotPass = async (req, res) => {
     var transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'example@gmail.com', //use ur example akun
-        pass: '...'
+        user: 'example@gmail.com', // Gunakan Email anda
+        pass: '...' // App password jika 2FA aktif
       }
     });
 
     var mailOptions = {
-      from: 'ajax1@gmail.com',
+      from: 'admin@gmail.com',
       to: email,
       subject: 'Reset your password',
       text: `http://localhost:3000/reset_password/${user._id}/${token}`

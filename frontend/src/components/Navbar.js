@@ -38,7 +38,7 @@ const Navbar = () => {
       <nav className="bg-white border-gray-200">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-6 border">
           <a href="https://flowbite.com" className="flex items-center">
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">ProjectKevin</span>
+            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">Login Page</span>
           </a>
           {email && (
             <div className="flex items-center pr-12 ">

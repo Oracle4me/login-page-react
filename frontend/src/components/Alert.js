@@ -4,6 +4,7 @@ import { FaCheck } from "react-icons/fa6";
 const Alert = ({ text1, text2 }) => {
   return (
     <div className=' overflow-hidden absolute top-6 right-7 rounded-l-[9px] bg-white py-3 pr-9 pl-6 shadow-md border-l-[6px] border-solid border-[#4070f4]'>
+
       <div className='flex items-center'>
         <div className='mr-4 h-8 w-8 bg-[#4070f4] text-white rounded-full text-xs flex items-center justify-center'>
           <FaCheck className='text-center flex text-lg' />
